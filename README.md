@@ -1,6 +1,6 @@
-# Nuxt production ready docker image
+# Nuxt SSR production ready docker image
 
-This image is the base to build a production grade docker image for your nuxt app.
+This image is the base to build a production grade docker image for your nuxt ssr app.
 
 ## Getting started
 
