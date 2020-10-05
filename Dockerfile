@@ -11,11 +11,10 @@ RUN mkdir -p ${APP_ROOT}
 WORKDIR ${APP_ROOT}
 
 #Coping the sources
-ONBUILD COPY . ${APP_ROOT}
+COPY . ${APP_ROOT}
 
 # Building the app
-ONBUILD RUN npm install
-ONBUILD RUN npm run build
+RUN npm install && npm run build
 
 EXPOSE 3000
 
